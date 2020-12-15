@@ -181,6 +181,9 @@ ul {
     letter-spacing: -0.8px;
 }
 
+.header__nav--item:hover>.header__nav--submenu {
+    display: block;
+}
 /* Burger-button */
 
 .burger-icon {
@@ -293,13 +296,25 @@ ul {
 }
 
 
-/*.mobile__nav--submenu {}
+.mobile__nav--submenu {
+    position: absolute;
+    z-index: 200;
+    background-color: #dd2b1c;
+    display: none;
+}
 
-.mobile__nav--submenu-item {}
+.mobile__nav--submenu-item {
+       font-size: 14px;
+    min-width: 170px;
+    text-transform: none;
+    padding: 3px 10px;
+    letter-spacing: -0.8px;
+}
 
-.mobile__nav--submenu-link {}
-*/
-
+.mobile__nav--submenu:hover>.mobile__nav--submenu-item {
+    display: block;
+    left: -170px;
+}
 
 .main__slider--item {
     background-image: url(../images/slide.png);
@@ -307,9 +322,7 @@ ul {
     height: 350px;
 }
 
-.header__nav--item:hover>.header__nav--submenu {
-    display: block;
-}
+
 
 .slick-dots li button:before {
     font-size: 15px;
