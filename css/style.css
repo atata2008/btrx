@@ -116,11 +116,16 @@ ul {
 }
 
 .header__contacts--email {
-    border-bottom: 1px solid #000080;
-    border-color: #000000;
+    border-bottom: 1px solid #ff6600;
     position: relative;
     left: -10px;
     top: -3px;
+}
+
+.header_contacts--email-link {
+    color: #ff6600;
+    border-bottom: 1px solid;
+    border-color: #ff6600;
 }
 
 .header__contacts--address {
@@ -246,13 +251,13 @@ ul {
     width: 200px;
     padding: 40px;
     background-color: #dd2b1c;
-    transition: transform 0.4s ease-in;
+    transition: all 0.4s ease 0.1s;
 }
 
 .mobile-nav--active {
     transform: translateX(-100%);
     right: 0px;
-    transition: transform 0.4s ease-in;
+    transition: all 0.4s ease 0.1s;
 }
 
 .mobile-nav-heading {
@@ -377,11 +382,7 @@ ul {
     letter-spacing: 1.1px;
 }
 
-.header_contacts--email-link {
-    color: #ff6600;
-    border-bottom: 1px solid #000080;
-    border-color: #ff6600;
-}
+
 
 footer {
     margin-top: auto;
