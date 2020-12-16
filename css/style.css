@@ -290,17 +290,17 @@ ul {
     font-size: 14px;
 }
 
-
 .mobile__nav--page:hover {
     color: #ffd600;
 }
 
-
 .mobile__nav--submenu {
     position: absolute;
     z-index: 200;
+    left: -200px;
     background-color: #dd2b1c;
     display: none;
+    transition: all 0.5s ease 0.2s;
 }
 
 .mobile__nav--submenu-item {
@@ -309,11 +309,13 @@ ul {
     text-transform: none;
     padding: 3px 10px;
     letter-spacing: -0.8px;
+    transition: all 0.5s ease 0.2s;
 }
 
-.mobile__nav--submenu:hover>.mobile__nav--submenu-item {
+.mobile__nav--item:hover>.mobile__nav--submenu {
     display: block;
-    left: -170px;
+    left: -195px;
+    top: 250px;
 }
 
 .main__slider--item {
@@ -321,8 +323,6 @@ ul {
     width: 100vw;
     height: 350px;
 }
-
-
 
 .slick-dots li button:before {
     font-size: 15px;
@@ -394,8 +394,6 @@ ul {
     padding-bottom: 7px;
     letter-spacing: 1.1px;
 }
-
-
 
 footer {
     margin-top: auto;

@@ -78,6 +78,9 @@
     .header__contacts--discription {
         left: 0px;
     }
+    .header__nav--item:hover>.header__nav--submenu {
+        top: 210px;
+    }
 }
 
 @media (max-width: 768px) {
