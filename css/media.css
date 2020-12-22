@@ -4,7 +4,6 @@
     .burger-icon {
         visibility: hidden;
         opacity: 0;
-
     }
 
 }
@@ -56,7 +55,6 @@
         visibility: hidden;
         opacity: 0;
     }
-
 }
 
 @media (max-width: 940px) {
@@ -78,8 +76,30 @@
     .header__contacts--discription {
         left: 0px;
     }
+
     .header__nav--item:hover>.header__nav--submenu {
         top: 210px;
+    }
+
+    .main__slider {
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+    }
+
+    .main__about--heading {
+              margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .footer__social {
+        left: 0px;
+    }
+    .footer__contacts {
+               margin-right: 0px;
+               
+    }
+    .footer__container{
+        height: 250px;
     }
 }
 
@@ -89,7 +109,7 @@
     }
 
     .header__contacts {
-        height: 90px;
+        height: 70px;
         justify-content: space-around;
         padding: auto;
     }
@@ -141,7 +161,7 @@
 
     .header__nav--list {
         visibility: hidden;
-       opacity: 0;
+        opacity: 0;
     }
 
     .header__nav {
@@ -149,6 +169,7 @@
         justify-content: flex-end;
         padding-right: 10px;
     }
+    
 }
 
 @media (max-width: 650px) {
@@ -161,7 +182,7 @@
     }
 
     .header__contacts {
-        height: 100px;
+        height: 70px;
         width: 100vw;
         justify-content: space-evenly;
         margin: auto;
@@ -185,7 +206,7 @@
         visibility: visible;
         opacity: 1;
         transform: translateX(0);
-       
+
     }
 
     .burger-icon {
@@ -243,7 +264,8 @@
     }
 
 
-    .header__contacts--about-company {
+    .header__contacts--about-company,
+    .mobile__nav--submenu {
         visibility: hidden;
     }
 
@@ -263,7 +285,7 @@
         visibility: visible;
         opacity: 1;
         transform: translateX(0);
-           }
+    }
 
     .burger-icon {
         visibility: visible;

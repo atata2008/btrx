@@ -18,7 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 1024px;
-    height: 1800px;
+    max-height: 1800px;
     margin: 0 auto;
     overflow-x: hidden;
 }
@@ -103,7 +103,6 @@ ul {
 }
 
 .header__contacts--email {
-
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -184,12 +183,13 @@ ul {
 .header__nav--item:hover>.header__nav--submenu {
     display: block;
 }
+
 /* Burger-button */
 
 .burger-icon {
     z-index: 19;
     position: relative;
-    top: -155px;
+    top: -120px;
     display: block;
     width: 30px;
     height: 20px;
@@ -304,7 +304,7 @@ ul {
 }
 
 .mobile__nav--submenu-item {
-       font-size: 14px;
+    font-size: 14px;
     min-width: 170px;
     text-transform: none;
     padding: 3px 10px;
@@ -320,8 +320,8 @@ ul {
 
 .main__slider--item {
     background-image: url(../images/slide.png);
-    width: 100vw;
     height: 350px;
+    max-width: 100%;
 }
 
 .slick-dots li button:before {
