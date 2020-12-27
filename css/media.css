@@ -55,7 +55,7 @@
         visibility: hidden;
         opacity: 0;
     }
-   
+
 }
 
 @media (max-width: 940px) {
@@ -101,7 +101,7 @@
         margin-right: 0px;
     }
 
-    .footer__container{
+    .footer__container {
         padding-bottom: 0;
         height: 230px;
     }
@@ -148,11 +148,11 @@
     .header__contacts--name-company {
         margin-right: 5px;
     }
-    
-  .footer__container{
-      padding-bottom: 0;
-      height: 210px;
-  }
+
+    .footer__container {
+        padding-bottom: 0;
+        height: 210px;
+    }
 
     /*мобильное меню*/
     .mobile-nav {
@@ -237,14 +237,18 @@
         justify-content: flex-end;
         padding-right: 10px;
     }
-    .footer__container{
+
+    .footer__container {
         padding-bottom: 0;
         height: 135px;
     }
-    .footer__contacts, .footer__social{
+
+    .footer__contacts,
+    .footer__social {
         visibility: hidden;
     }
-    .footer__site-sections{
+
+    .footer__site-sections {
         width: 80%;
     }
 }
@@ -325,14 +329,18 @@
         justify-content: flex-end;
         padding-right: 10px;
     }
-    .footer__container{
+
+    .footer__container {
         padding-bottom: 0;
         height: 170px;
     }
-    .footer__site-sections{
+
+    .footer__site-sections {
         width: 80%;
     }
-    .footer__contacts, .footer__social{
+
+    .footer__contacts,
+    .footer__social {
         visibility: hidden;
     }
 }
