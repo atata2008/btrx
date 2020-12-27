@@ -55,6 +55,7 @@
         visibility: hidden;
         opacity: 0;
     }
+   
 }
 
 @media (max-width: 940px) {
@@ -88,18 +89,21 @@
     }
 
     .main__about--heading {
-              margin-top: 0px;
+        margin-top: 0px;
         margin-bottom: 10px;
     }
+
     .footer__social {
         left: 0px;
     }
+
     .footer__contacts {
-               margin-right: 0px;
-               
+        margin-right: 0px;
     }
+
     .footer__container{
-        height: 250px;
+        padding-bottom: 0;
+        height: 230px;
     }
 }
 
@@ -144,6 +148,11 @@
     .header__contacts--name-company {
         margin-right: 5px;
     }
+    
+  .footer__container{
+      padding-bottom: 0;
+      height: 210px;
+  }
 
     /*мобильное меню*/
     .mobile-nav {
@@ -157,6 +166,7 @@
         opacity: 1;
         transform: translateX(0);
         margin-right: 15px;
+        top: -135px;
     }
 
     .header__nav--list {
@@ -169,7 +179,7 @@
         justify-content: flex-end;
         padding-right: 10px;
     }
-    
+
 }
 
 @media (max-width: 650px) {
@@ -182,7 +192,7 @@
     }
 
     .header__contacts {
-        height: 70px;
+        height: 110px;
         width: 100vw;
         justify-content: space-evenly;
         margin: auto;
@@ -214,7 +224,7 @@
         opacity: 1;
         transform: translateX(0);
         margin-right: 15px;
-        top: -165px;
+        top: -175px;
     }
 
     .header__nav--list {
@@ -226,6 +236,16 @@
         height: 0px;
         justify-content: flex-end;
         padding-right: 10px;
+    }
+    .footer__container{
+        padding-bottom: 0;
+        height: 135px;
+    }
+    .footer__contacts, .footer__social{
+        visibility: hidden;
+    }
+    .footer__site-sections{
+        width: 80%;
     }
 }
 
@@ -304,5 +324,15 @@
         height: 0px;
         justify-content: flex-end;
         padding-right: 10px;
+    }
+    .footer__container{
+        padding-bottom: 0;
+        height: 170px;
+    }
+    .footer__site-sections{
+        width: 80%;
+    }
+    .footer__contacts, .footer__social{
+        visibility: hidden;
     }
 }
