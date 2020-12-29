@@ -246,7 +246,7 @@ ul {
 
 .mobile-nav {
     z-index: 9;
-    display: block;
+    display: none;
     position: absolute;
     right: -200px;
     top: 0px;
@@ -254,13 +254,14 @@ ul {
     width: 200px;
     padding: 40px;
     background-color: #dd2b1c;
-    transition: all 0.4s ease 0.1s;
+    transition: right 0.6s ease-in 0.2s;
 }
 
 .mobile-nav--active {
     transform: translateX(-100%);
     right: 0px;
-    transition: all 0.4s ease 0.1s;
+    display: flex;
+    transition: right 0.6s ease-in 0.2s;
 }
 
 .mobile-nav-heading {
@@ -421,7 +422,7 @@ footer {
 .footer__site-sections--name {
     font-weight: bold;
     padding-bottom: 10px;
-}
+} 
 
 .footer__site-sections--item {
     display: inline-block;
