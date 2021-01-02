@@ -84,6 +84,7 @@
 
     .main__slider {
         visibility: hidden;
+        display: none;
         opacity: 0;
         height: 0;
     }
@@ -149,7 +150,7 @@
         margin-right: 5px;
     }
 
-    .footer__container {
+   .footer__container {
         padding-bottom: 0;
         height: 210px;
     }
@@ -237,7 +238,9 @@
         justify-content: flex-end;
         padding-right: 10px;
     }
-
+    .main__about--heading{
+        padding-top: 15px;
+    }
     .footer__container {
         padding-bottom: 0;
         height: 135px;
@@ -245,7 +248,8 @@
 
     .footer__contacts,
     .footer__social {
-        visibility: hidden;
+        /*visibility: hidden;*/
+        display: none;
     }
 
     .footer__site-sections {
@@ -254,7 +258,7 @@
 }
 
 
-@media (max-width: 385px) {
+@media (max-width: 415px) {
     .container {
         width: 100vw;
     }
@@ -269,7 +273,7 @@
     }
 
     .header__contacts {
-        height: 100px;
+        min-height: 100px;
         width: 100vw;
         justify-content: space-evenly;
         margin: auto;
@@ -287,7 +291,6 @@
         padding: 20px 0 0 10px;
     }
 
-
     .header__contacts--about-company,
     .mobile__nav--submenu {
         visibility: hidden;
@@ -302,6 +305,7 @@
         height: 65px;
         width: 65px;
     }
+    
 
 
     /*мобильное меню*/
@@ -336,10 +340,5 @@
 
     .footer__site-sections {
         width: 80%;
-    }
-
-    .footer__contacts,
-    .footer__social {
-        visibility: hidden;
     }
 }
