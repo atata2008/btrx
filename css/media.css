@@ -59,10 +59,6 @@
 }
 
 @media (max-width: 940px) {
-    .container {
-        width: 100vw;
-    }
-
     .header__nav {
         height: 50px;
     }
@@ -90,7 +86,7 @@
     }
 
     .main__about--heading {
-        margin-top: 0px;
+        margin-top: 10px;
         margin-bottom: 10px;
     }
 
@@ -109,9 +105,6 @@
 }
 
 @media (max-width: 768px) {
-    .container {
-        width: 100vw;
-    }
 
     .header__contacts {
         height: 70px;
@@ -138,7 +131,6 @@
     }
 
     .header__contacts--discription {
-        left: 0px;
         top: -5px;
     }
 
@@ -150,8 +142,22 @@
         margin-right: 5px;
     }
 
-   .footer__container {
-        padding-bottom: 0;
+    .header__nav--list {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .header__nav {
+        height: 0px;
+        justify-content: flex-end;
+        padding-right: 10px;
+    }
+
+    .main__about--heading {
+        padding-top: 15px;
+    }
+
+    .footer__container {
         height: 210px;
     }
 
@@ -170,23 +176,9 @@
         top: -135px;
     }
 
-    .header__nav--list {
-        visibility: hidden;
-        opacity: 0;
-    }
-
-    .header__nav {
-        height: 0px;
-        justify-content: flex-end;
-        padding-right: 10px;
-    }
-
 }
 
-@media (max-width: 650px) {
-    .container {
-        width: 100vw;
-    }
+@media (max-width: 665px) {
 
     .header__back-call {
         padding-left: 5px;
@@ -207,40 +199,10 @@
         display: none;
     }
 
-    .header__contacts--discription {
-        left: 0px;
-        top: -5px;
-    }
-
-    /*мобильное меню*/
-    .mobile-nav {
-        visibility: visible;
-        opacity: 1;
-        transform: translateX(0);
-
-    }
-
     .burger-icon {
-        visibility: visible;
-        opacity: 1;
-        transform: translateX(0);
-        margin-right: 15px;
         top: -175px;
     }
 
-    .header__nav--list {
-        visibility: hidden;
-        opacity: 0;
-    }
-
-    .header__nav {
-        height: 0px;
-        justify-content: flex-end;
-        padding-right: 10px;
-    }
-    .main__about--heading{
-        padding-top: 15px;
-    }
     .footer__container {
         padding-bottom: 0;
         height: 135px;
@@ -248,7 +210,6 @@
 
     .footer__contacts,
     .footer__social {
-        /*visibility: hidden;*/
         display: none;
     }
 
@@ -259,30 +220,9 @@
 
 
 @media (max-width: 415px) {
-    .container {
-        width: 100vw;
-    }
-
-    .header__contacts--discription {
-        left: 0px;
-        top: -20px;
-    }
 
     .header__back-call--text {
         font-size: 80%;
-    }
-
-    .header__contacts {
-        min-height: 100px;
-        width: 100vw;
-        justify-content: space-evenly;
-        margin: auto;
-    }
-
-    .header__contacts--discription {
-        position: relative;
-        left: 0;
-        top: 0;
     }
 
     .header__contacts--info {
@@ -305,40 +245,18 @@
         height: 65px;
         width: 65px;
     }
-    
 
+    .main__about--heading {
+        padding-top: 25px;
+    }
 
     /*мобильное меню*/
-    .mobile-nav {
-        visibility: visible;
-        opacity: 1;
-        transform: translateX(0);
-    }
-
     .burger-icon {
-        visibility: visible;
-        top: -165px;
-        opacity: 1;
-        margin-right: 15px;
-    }
-
-    .header__nav--list {
-        visibility: hidden;
-        opacity: 0;
-    }
-
-    .header__nav {
-        height: 0px;
-        justify-content: flex-end;
-        padding-right: 10px;
+        top: -175px;
     }
 
     .footer__container {
-        padding-bottom: 0;
         height: 170px;
     }
 
-    .footer__site-sections {
-        width: 80%;
-    }
 }
