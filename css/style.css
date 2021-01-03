@@ -472,5 +472,5 @@ footer {
 .footer_decorate {
     background-color: #ff6600;
     height: 36px;
-    width: 1024px;
+    max-width: 1024px;
 }
