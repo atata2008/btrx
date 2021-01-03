@@ -260,3 +260,9 @@
     }
 
 }
+
+@media (orientation: landscape) {
+    .mobile-nav {
+        height: 200%;
+    }
+}
